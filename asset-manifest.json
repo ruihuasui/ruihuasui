@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/ruihuasui/static/css/main.bc10e437.chunk.css",
-    "main.js": "/ruihuasui/static/js/main.00bdab90.chunk.js",
-    "main.js.map": "/ruihuasui/static/js/main.00bdab90.chunk.js.map",
+    "main.css": "/ruihuasui/static/css/main.1ee5cc38.chunk.css",
+    "main.js": "/ruihuasui/static/js/main.0a546cf3.chunk.js",
+    "main.js.map": "/ruihuasui/static/js/main.0a546cf3.chunk.js.map",
     "runtime-main.js": "/ruihuasui/static/js/runtime-main.b0ebd10f.js",
     "runtime-main.js.map": "/ruihuasui/static/js/runtime-main.b0ebd10f.js.map",
     "static/css/2.6a63a4b1.chunk.css": "/ruihuasui/static/css/2.6a63a4b1.chunk.css",
-    "static/js/2.a622333d.chunk.js": "/ruihuasui/static/js/2.a622333d.chunk.js",
-    "static/js/2.a622333d.chunk.js.map": "/ruihuasui/static/js/2.a622333d.chunk.js.map",
+    "static/js/2.bf7a40c7.chunk.js": "/ruihuasui/static/js/2.bf7a40c7.chunk.js",
+    "static/js/2.bf7a40c7.chunk.js.map": "/ruihuasui/static/js/2.bf7a40c7.chunk.js.map",
     "index.html": "/ruihuasui/index.html",
-    "precache-manifest.957114b5d25dad22d0609489a2d7a78a.js": "/ruihuasui/precache-manifest.957114b5d25dad22d0609489a2d7a78a.js",
+    "precache-manifest.bdb91fc21c67943c550eed339996ffc9.js": "/ruihuasui/precache-manifest.bdb91fc21c67943c550eed339996ffc9.js",
     "service-worker.js": "/ruihuasui/service-worker.js",
     "static/css/2.6a63a4b1.chunk.css.map": "/ruihuasui/static/css/2.6a63a4b1.chunk.css.map",
-    "static/css/main.bc10e437.chunk.css.map": "/ruihuasui/static/css/main.bc10e437.chunk.css.map",
+    "static/css/main.1ee5cc38.chunk.css.map": "/ruihuasui/static/css/main.1ee5cc38.chunk.css.map",
     "static/media/semantic.min.css": "/ruihuasui/static/media/outline-icons.ef60a4f6.woff",
     "static/media/ct-logo.png": "/ruihuasui/static/media/ct-logo.1a1e80a1.png",
-    "static/media/opico-logo.png": "/ruihuasui/static/media/opico-logo.939c8dcf.png"
+    "static/media/opico-logo.png": "/ruihuasui/static/media/opico-logo.939c8dcf.png",
+    "static/media/profile.jpg": "/ruihuasui/static/media/profile.94dcf907.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b0ebd10f.js",
     "static/css/2.6a63a4b1.chunk.css",
-    "static/js/2.a622333d.chunk.js",
-    "static/css/main.bc10e437.chunk.css",
-    "static/js/main.00bdab90.chunk.js"
+    "static/js/2.bf7a40c7.chunk.js",
+    "static/css/main.1ee5cc38.chunk.css",
+    "static/js/main.0a546cf3.chunk.js"
   ]
 }
