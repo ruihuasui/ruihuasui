@@ -13,6 +13,7 @@ export function Card({
 
   link="",
   linkName="",
+  github=""
 }) {
   return (
     <div className={`srh-proj-card srh-card-${name}`}>
@@ -24,7 +25,11 @@ export function Card({
           </h2>
           {
             Boolean(link) && 
-            <SLink pathname={link} name={linkName} type={name} />
+            <SLink pathname={link} type={name} />
+          }
+          {
+            Boolean(github) && 
+            <SLink pathname={github} type="github" />
           }
         </div>
       }

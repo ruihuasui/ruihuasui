@@ -13,6 +13,7 @@
     "role": "Frontend Developer & Research Assistant",
     "description": "Designed and built the frontend of ClassTranscribe, an educational video website of the University of Illinois launched by Prof. Lawrence Angrave, where provides searchable and editable transcriptions.",
     "link": "https://classtranscribe.illinois.edu",
-    "linkName": "classtranscribe.illinois.edu"
+    "linkName": "classtranscribe.illinois.edu",
+    "github": "https://github.com/classtranscribe/FrontEnd"
   }
 ]
