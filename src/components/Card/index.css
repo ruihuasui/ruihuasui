@@ -9,6 +9,7 @@
   /* background: var(--srh-grey-light);
   padding: 1em; */
   border-radius: 15px;
+  margin-top: 0em;
   align-items: flex-end;
 }
 .srh-card-uni p, .srh-card-uni h2 {
@@ -22,14 +23,16 @@
 }
 
 .srh-proj-card .proj-title {
-  font-size: 2.5em;
-  font-weight: bold;
+  font-size: 3em;
+  /* font-weight: bold; */
+  font-family: var(--srh-font-primary);
   /* color: rgb(12, 85, 85); */
 }
 .srh-proj-card .proj-role {
   font-size: 1.7em;
   font-weight: bold;
   color: var(--srh-text-primary-light);
+  font-family: var(--srh-font-primary);
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -39,6 +42,7 @@
   font-size: 1.5em;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--srh-text-description);
+  font-family: var(--srh-font-primary);
   /* padding: .2em;
   background: var(--srh-grey-light);
   border-radius: 15px; */

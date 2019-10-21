@@ -3,7 +3,7 @@
   font-size: 1.7em;
   padding: .5em;
   border-radius: 10px;
-  background: var(--srh-grey-light);
+  /* background: var(--srh-grey-light); */
   height: max-content;
   width: max-content;
 
@@ -11,10 +11,11 @@
   -o-transition: var(--srh-transi-bg);
   -moz-transition: var(--srh-transi-bg);
   -webkit-transition: var(--srh-transi-bg);
+  outline: none;
 }
 
 .srh-link:hover, .srh-link:focus {
-  background: rgb(216, 216, 216);
+  background: var(--srh-grey-light);
 }
 
 .srh-link-img {
@@ -22,7 +23,7 @@
 }
 
 .srh-link-opico, .srh-link-ct, .srh-link-github {
-  margin-left: 1em;
+  margin-left: .5em;
   margin-top: -.5em;
   /* color: white !important; */
 }

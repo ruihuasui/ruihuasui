@@ -16,6 +16,12 @@
   background: var(--srh-grey-light);
 }
 
+.srh-profile .srh-name {
+  margin-bottom: 0;
+  font-family: var(--srh-font-name);
+  font-size: 3em;
+}
+
 @media screen and (max-width: 900px) {
   .srh-profile {
     width: 100%;

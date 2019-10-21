@@ -8,10 +8,11 @@ export function Profile({}) {
   return (
     <div className="srh-profile">
       <Image />
+      <h1 className="srh-name">RUIHUA SUI</h1>
       <Card 
         name="uni"
-        title="University of Illinois at Urbana-Champaign"
-        role="Senior student in Mathematics & Computer Science"
+        //title=""
+        role={<>Senior student in Mathematics & Computer Science <br/> @ University of Illinois at Urbana-Champaign</>}
         description="Jan 2018 - May 2020"
       />
     </div>

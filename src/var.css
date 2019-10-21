@@ -5,7 +5,9 @@
 
   /* Font */
   --srh-font-narrow: 'Roboto Condensed', sans-serif;
-  --srh-font-primary: 'Roboto', sans-serif;
+  --srh-font-primary: 'Titillium Web', sans-serif;
+  /* --srh-font-primary: 'Roboto', sans-serif; */
+  --srh-font-name: 'Chelsea Market', cursive;
   /* Color */
   --srh-text-primary: #383838;
   --srh-text-primary-light: #4e4e4e;

@@ -24,6 +24,10 @@ export function Card({
             {title}
           </h2>
           {
+            (Boolean(github) || Boolean(link)) &&
+            <>&ensp;<i className="material-icons">arrow_right_alt</i></>
+          }
+          {
             Boolean(link) && 
             <SLink pathname={link} type={name} />
           }
