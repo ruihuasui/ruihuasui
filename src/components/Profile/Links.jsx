@@ -10,7 +10,7 @@ export default function Links({}) {
         <SLink
           key={link.name}
           type="icon"
-          icon={<Icon name={link.icon} />}
+          icon={<Icon size='large' name={link.icon} />}
           name={link.name}
           pathname={link.pathname}
         />
