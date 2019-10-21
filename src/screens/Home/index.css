@@ -1,0 +1,26 @@
+.srh-home {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.srh-projs {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  height: 100vh;
+}
+
+@media screen and (max-width: 900px) {
+  .srh-home {
+    flex-direction: column;
+    padding-bottom: 10em;
+  }
+  .srh-projs {
+    width: 100%;
+    height: auto;
+  }
+}

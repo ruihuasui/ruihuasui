@@ -1,0 +1,22 @@
+:root {
+  /* Background */
+  --srh-bg-light: #fcfcfc;
+  --srh-grey-light: rgb(241, 241, 241);
+
+  /* Font */
+  --srh-font-narrow: 'Roboto Condensed', sans-serif;
+  --srh-font-primary: 'Roboto', sans-serif;
+  /* Color */
+  --srh-text-primary: #383838;
+  --srh-text-primary-light: #4e4e4e;
+  --srh-text-description: #666666;
+
+  /* Transition */
+  --srh-transi-bg: background .2s linear;
+  --srh-transi-color: color .2s linear;
+  --srh-transi-border: border .2s linear;
+  --srh-transi-width: width .2s linear;
+  --srh-transi-height: height .2s linear;
+  --srh-transi-transform: transform .2s linear;
+  --srh-transi-all: all .2s linear;
+}

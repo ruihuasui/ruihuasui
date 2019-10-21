@@ -1,0 +1,36 @@
+.srh-link {
+  font-weight: bold;
+  font-size: 1.7em;
+  padding: .5em;
+  border-radius: 10px;
+  background: var(--srh-grey-light);
+  
+  transition: var(--srh-transi-bg);
+  -o-transition: var(--srh-transi-bg);
+  -moz-transition: var(--srh-transi-bg);
+  -webkit-transition: var(--srh-transi-bg);
+}
+
+/* .srh-link:hover, .srh-link:focus {
+  background: var(--srh-grey-light);
+} */
+
+.srh-link-opico, .srh-link-ct {
+  margin-left: 1em;
+  margin-top: -.5em;
+  color: white !important;
+}
+
+.srh-link-opico {
+  background:#8b4eb7;
+}
+.srh-link-opico:hover {
+  background:#6f3599;
+}
+
+.srh-link-ct {
+  background: rgb(37, 141, 141);
+}
+.srh-link-ct:hover {
+  background: rgb(19, 110, 110);
+}

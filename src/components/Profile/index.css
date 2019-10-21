@@ -1,0 +1,26 @@
+.srh-profile {
+  width: 45%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 1em 3em 0 1em;
+  /* background: var(--srh-grey-light); */
+  /* border-right: 1px solid var(--srh-grey-light) ; */
+}
+
+.srh-profile-img {
+  width: 300px;
+  height: 300px;
+  background: var(--srh-grey-light);
+}
+
+@media screen and (max-width: 900px) {
+  .srh-profile {
+    width: 100%;
+    height: auto;
+    padding: 1em;
+    align-items: center;
+  }
+}
