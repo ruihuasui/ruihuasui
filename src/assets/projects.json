@@ -3,7 +3,7 @@
     "name": "opico",
     "title": "Opico",
     "role": "Backend Developer & Research Assistant",
-    "description": "Joined Data Driven Design Research of Prof. Ranjitha Kumar as an Undergraduate Research Assistant. Developing new features to Opico – a social media mobile application that lets people share and discover places through emoji reactions.",
+    "description": "Joined Data Driven Design Research of<a target='_blank' href='http://ranjithakumar.net'>Prof. Ranjitha Kumar</a>as an Undergraduate Research Assistant. Developing new features to Opico – a social media mobile application that lets people share and discover places through emoji reactions.",
     "link": "https://www.opico.io/#/",
     "linkName": "opico.io"
   },
@@ -11,9 +11,10 @@
     "name": "ct",
     "title": "ClassTranscribe",
     "role": "Frontend Developer & Research Assistant",
-    "description": "Designed and built the frontend of ClassTranscribe, an educational video website of the University of Illinois launched by Prof. Lawrence Angrave, where provides searchable and editable transcriptions.",
+    "description": "Designed and built the frontend of ClassTranscribe, an educational video website of the University of Illinois launched by<a target='_blank' href='https://github.com/angrave'>Prof. Lawrence Angrave</a>, where provides searchable and editable transcriptions.",
     "link": "https://classtranscribe.illinois.edu",
     "linkName": "classtranscribe.illinois.edu",
-    "github": "https://github.com/classtranscribe/FrontEnd"
+    "github": "https://github.com/classtranscribe/FrontEnd",
+    "githubName": "github.com/classtranscribe/FrontEnd"
   }
 ]

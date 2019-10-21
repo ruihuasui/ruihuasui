@@ -1,12 +1,14 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { profilePhoto } from '../../assets'
 
 export default function Image({
 
 }) {
   return (
     <div className="srh-profile-img">
-      
+      <img 
+        src={profilePhoto}
+      />
     </div>
   )
 }

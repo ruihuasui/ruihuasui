@@ -1,4 +1,7 @@
 export const projects = require('./projects.json')
+export const profileLinks = require('./links.json')
+
+export const profilePhoto = require('./profile.jpg')
 
 export const logo = {
   github: require('./github-logo.png'),

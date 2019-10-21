@@ -1,11 +1,15 @@
 .srh-link {
   font-weight: bold;
   font-size: 1.7em;
-  padding: .5em;
-  border-radius: 10px;
+  padding: 10px;
+  border-radius: 50%;
   /* background: var(--srh-grey-light); */
-  height: max-content;
-  width: max-content;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 
   transition: var(--srh-transi-bg);
   -o-transition: var(--srh-transi-bg);
@@ -23,9 +27,32 @@
 }
 
 .srh-link-opico, .srh-link-ct, .srh-link-github {
+  margin-left: .1em;
+}
+.srh-link-icon {
+  background: rgb(245, 245, 245);
+  padding: 5px 10px !important;
+  margin-top: .5em;
+  width: 40px;
+  overflow: hidden;
+  height: 40px;
   margin-left: .5em;
-  margin-top: -.5em;
-  /* color: white !important; */
+  border-radius: 20px;
+
+  transition: var(--srh-transi-width);
+  -o-transition: var(--srh-transi-width);
+  -moz-transition: var(--srh-transi-width);
+  -webkit-transition: var(--srh-transi-width);
+}
+
+.srh-link-icon i {
+  font-size: 25px !important;
+  margin-top: 8px !important;
+  margin-left: 4px !important;
+  padding: 0 !important;
+}
+.srh-link-icon span {
+  margin-left: 10px !important;
 }
 
 @media screen and (max-width: 900px) {

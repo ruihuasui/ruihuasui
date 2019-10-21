@@ -1,5 +1,6 @@
 .srh-profile {
   width: 45%;
+  max-width: 45em;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,21 +11,33 @@
   /* border-right: 1px solid var(--srh-grey-light) ; */
 }
 
-.srh-profile-img {
-  width: 300px;
-  height: 300px;
+.srh-profile-img img {
+  width: 350px;
+  height: 350px;
   background: var(--srh-grey-light);
+  pointer-events: none;
 }
 
 .srh-profile .srh-name {
   margin-bottom: 0;
   font-family: var(--srh-font-name);
-  font-size: 3em;
+  font-size: 50px;
+}
+
+.srh-profile .srh-name span {
+  font-size: 40px;
+  color: var(--srh-text-primary-light);
+}
+
+.srh-profile .srh-my-links {
+  display: flex;
+  flex-direction: row;
 }
 
 @media screen and (max-width: 900px) {
   .srh-profile {
     width: 100%;
+    max-width: unset;
     height: auto;
     padding: 1em;
     align-items: center;

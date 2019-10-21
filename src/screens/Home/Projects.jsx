@@ -6,7 +6,7 @@ export default function Projects({}) {
   return (
     <div className="srh-projs">
       {projects.map( project => (
-        <Card {...project} />
+        <Card key={project.name} {...project} />
       ))}
     </div>
   )
