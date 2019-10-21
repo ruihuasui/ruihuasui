@@ -18,6 +18,7 @@ export function SLink({
 
   return (
     <Popup hoverable wide flowing
+      mouseEnterDelay={800}
       trigger={
         within ?
           <Link className={className} to={pathname}>{name}</Link>
