@@ -27,6 +27,13 @@
   margin-top: -.5em;
   /* color: white !important; */
 }
+
+@media screen and (max-width: 900px) {
+  .srh-link-opico, .srh-link-ct, .srh-link-github {
+    margin-left: .1em;
+    /* color: white !important; */
+  }
+}
 /*
 .srh-link-opico {
   background:#8b4eb7;

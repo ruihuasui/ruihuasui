@@ -39,10 +39,10 @@
 
 .srh-proj-card .proj-description {
   margin: 0 !important;
-  font-size: 1.5em;
+  font-size: 1.7em;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--srh-text-description);
-  font-family: var(--srh-font-primary);
+  font-family: var(--srh-font-narrow);
   /* padding: .2em;
   background: var(--srh-grey-light);
   border-radius: 15px; */
@@ -50,10 +50,17 @@
 
 @media screen and (max-width: 900px) {
   .srh-card-uni {
-    align-items: flex-start;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .srh-proj-card {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .srh-card-uni p, .srh-card-uni h2 {
-    text-align: left;
+    text-align: center;
     /* font-size: 1.5em !important; */
   }
   .srh-proj-card .proj-header {

@@ -29,7 +29,10 @@ export function SLink({
           </a>
       }
       content={
-        <Microlink url={pathname}  />
+        <Microlink 
+          url={pathname} 
+          //size="large"  
+        />
       }
     />
   )
