@@ -4,6 +4,8 @@
   padding: .5em;
   border-radius: 10px;
   background: var(--srh-grey-light);
+  height: max-content;
+  width: max-content;
 
   transition: var(--srh-transi-bg);
   -o-transition: var(--srh-transi-bg);
