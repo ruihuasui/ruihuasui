@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ruihuasui/static/css/main.e14f40af.chunk.css",
+    "main.css": "/ruihuasui/static/css/main.3af531d8.chunk.css",
     "main.js": "/ruihuasui/static/js/main.2f7fae4d.chunk.js",
     "main.js.map": "/ruihuasui/static/js/main.2f7fae4d.chunk.js.map",
     "runtime-main.js": "/ruihuasui/static/js/runtime-main.b0ebd10f.js",
@@ -9,10 +9,10 @@
     "static/js/2.a2dd5921.chunk.js": "/ruihuasui/static/js/2.a2dd5921.chunk.js",
     "static/js/2.a2dd5921.chunk.js.map": "/ruihuasui/static/js/2.a2dd5921.chunk.js.map",
     "index.html": "/ruihuasui/index.html",
-    "precache-manifest.a9fde6ff4657028f0f402d9c15ed8d57.js": "/ruihuasui/precache-manifest.a9fde6ff4657028f0f402d9c15ed8d57.js",
+    "precache-manifest.e94311be2da099c8583997cffa092642.js": "/ruihuasui/precache-manifest.e94311be2da099c8583997cffa092642.js",
     "service-worker.js": "/ruihuasui/service-worker.js",
     "static/css/2.6a63a4b1.chunk.css.map": "/ruihuasui/static/css/2.6a63a4b1.chunk.css.map",
-    "static/css/main.e14f40af.chunk.css.map": "/ruihuasui/static/css/main.e14f40af.chunk.css.map",
+    "static/css/main.3af531d8.chunk.css.map": "/ruihuasui/static/css/main.3af531d8.chunk.css.map",
     "static/media/semantic.min.css": "/ruihuasui/static/media/outline-icons.ef60a4f6.woff",
     "static/media/ct-logo.png": "/ruihuasui/static/media/ct-logo.1a1e80a1.png",
     "static/media/opico-logo.png": "/ruihuasui/static/media/opico-logo.939c8dcf.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.b0ebd10f.js",
     "static/css/2.6a63a4b1.chunk.css",
     "static/js/2.a2dd5921.chunk.js",
-    "static/css/main.e14f40af.chunk.css",
+    "static/css/main.3af531d8.chunk.css",
     "static/js/main.2f7fae4d.chunk.js"
   ]
 }
