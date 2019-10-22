@@ -3,6 +3,7 @@ export const profileLinks = require('./links.json')
 export const mySkills = require('./skills.json')
 
 export const profilePhoto = require('./profile.jpg')
+export const resume = require('./srh-resume.pdf')
 
 export const logo = {
   github: require('./github-logo.png'),

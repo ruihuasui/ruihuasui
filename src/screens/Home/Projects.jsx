@@ -5,11 +5,19 @@ import { projects, mySkills } from '../../assets'
 export default function Projects({}) {
   return (
     <div className="srh-projs">
+      <OverView />
+    </div>
+  )
+}
+
+function OverView({}) {
+  return (
+    <>
       {projects.map( project => (
         <Card key={project.name} {...project} />
       ))}
       <Skills />
-    </div>
+    </>
   )
 }
 

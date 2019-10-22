@@ -26,7 +26,7 @@ export function SLink({
         //mouseEnterDelay={500}
         trigger={
           <a className={className} href={pathname}>
-            {icon}
+            {icon} {/*{name === 'Resume' && name}*/}
           </a>
         }
       />
