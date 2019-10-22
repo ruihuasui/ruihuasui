@@ -8,5 +8,10 @@
     "name": "linkedin.com/in/ruihua-sui",
     "icon": "linkedin",
     "pathname": "https://www.linkedin.com/in/ruihua-sui/"
+  },
+  {
+    "name": "ruihua.sui@gmail.com",
+    "icon": "mail",
+    "pathname": "mailto:ruihua.sui@gmail.com"
   }
 ]

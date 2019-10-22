@@ -25,7 +25,7 @@ export function SLink({
         closeOnTriggerBlur
         mouseEnterDelay={500}
         trigger={
-          <a target="_blank" className={className} href={pathname}>
+          <a className={className} href={pathname}>
             {icon}
           </a>
         }
@@ -42,7 +42,7 @@ export function SLink({
         within ?
           <Link className={className} to={pathname}>{name}</Link>
         :
-          <a target="_blank" className={className} href={pathname}>
+          <a className={className} href={pathname}>
             {Boolean(imgSrc) && <img className="srh-link-img" src={imgSrc} />}
           </a>
       }
