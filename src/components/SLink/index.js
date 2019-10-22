@@ -21,6 +21,8 @@ export function SLink({
     return (
       <Popup inverted
         content={name}
+        openOnTriggerFocus
+        closeOnTriggerBlur
         mouseEnterDelay={500}
         trigger={
           <a target="_blank" className={className} href={pathname}>
@@ -33,6 +35,8 @@ export function SLink({
 
   return (
     <Popup wide inverted
+      openOnTriggerFocus
+      closeOnTriggerBlur
       mouseEnterDelay={500}
       trigger={
         within ?

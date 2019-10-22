@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Programming Languages",
+    "content": "C, C++, Java, JavaScript, Python",
+    "icon": "code"
+  },
+  {
+    "name": "Web/Mobile App Development",
+    "content": "Node JS, React JS, React Native, Feathers JS, Flask, Sequelize",
+    "icon": "important_devices"
+  },
+  {
+    "name": "Database Management",
+    "content": "MySQL, PostgreSQL, MongoDB",
+    "icon": "table_chart"
+  }
+]

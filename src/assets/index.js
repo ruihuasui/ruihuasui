@@ -1,5 +1,6 @@
 export const projects = require('./projects.json')
 export const profileLinks = require('./links.json')
+export const mySkills = require('./skills.json')
 
 export const profilePhoto = require('./profile.jpg')
 

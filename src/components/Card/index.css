@@ -48,10 +48,11 @@
   padding: 0 5px;
   margin: 0 2px;
   border-radius: 10px;
+  outline: none !important;
 }
 
-.srh-proj-card .proj-description a:hover {
-  background: rgb(243, 243, 243);
+.srh-proj-card .proj-description a:hover, .srh-proj-card .proj-description a:focus {
+  background: var(--srh-grey-light);
 }
 
 @media screen and (max-width: 900px) {

@@ -1,7 +1,7 @@
 :root {
   /* Background */
   --srh-bg-light: #fcfcfc;
-  --srh-grey-light: rgb(241, 241, 241);
+  --srh-grey-light: rgb(243, 243, 243);
 
   /* Font */
   --srh-font-narrow: 'Roboto Condensed', sans-serif;
@@ -12,6 +12,9 @@
   --srh-text-primary: #383838;
   --srh-text-primary-light: #4e4e4e;
   --srh-text-description: #666666;
+
+  /* border */
+  --srh-border-primary: #d1d1d1 solid 1px;
 
   /* Transition */
   --srh-transi-bg: background .2s linear;
