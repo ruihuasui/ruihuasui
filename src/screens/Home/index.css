@@ -20,6 +20,7 @@
   background: var(--srh-grey-light);
   border-radius: 20px;
   padding: .5em 1em;
+  color: var(--srh-text-primary-light);
 }
 
 .srh-skills-title {
