@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e23e4c31fd8c05bebc89f83baf50dfb4",
+    "revision": "7314bc96029b7c8c5f0aa7b2be99bfc0",
     "url": "/ruihuasui/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruihuasui/static/css/2.6a63a4b1.chunk.css"
   },
   {
-    "revision": "d4e878a1d6c99aedadb4",
+    "revision": "2ee98d0da2b0bc214499",
     "url": "/ruihuasui/static/css/main.3af531d8.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruihuasui/static/js/2.a2dd5921.chunk.js"
   },
   {
-    "revision": "d4e878a1d6c99aedadb4",
-    "url": "/ruihuasui/static/js/main.2f7fae4d.chunk.js"
+    "revision": "2ee98d0da2b0bc214499",
+    "url": "/ruihuasui/static/js/main.c5239783.chunk.js"
   },
   {
     "revision": "268a7383d244635a450c",
