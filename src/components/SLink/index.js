@@ -23,7 +23,7 @@ export function SLink({
         content={<div dangerouslySetInnerHTML={{__html: name}}></div>}
         openOnTriggerFocus
         closeOnTriggerBlur
-        mouseEnterDelay={500}
+        //mouseEnterDelay={500}
         trigger={
           <a className={className} href={pathname}>
             {icon}
@@ -37,7 +37,7 @@ export function SLink({
     <Popup wide inverted
       openOnTriggerFocus
       closeOnTriggerBlur
-      mouseEnterDelay={500}
+      //mouseEnterDelay={500}
       trigger={
         within ?
           <Link className={className} to={pathname}>{name}</Link>
