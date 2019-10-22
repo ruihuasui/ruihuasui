@@ -11,3 +11,11 @@ export default function Projects({}) {
     </div>
   )
 }
+
+function Skills({}) {
+  return (
+    <div className="srh-skills">
+
+    </div>
+  )
+}

@@ -19,6 +19,7 @@
 }
 
 .srh-profile .srh-name {
+  text-align: right;
   margin-bottom: 0;
   font-family: var(--srh-font-name);
   font-size: 50px;
@@ -27,6 +28,13 @@
 .srh-profile .srh-name span {
   font-size: 40px;
   color: var(--srh-text-primary-light);
+}
+
+.srh-profile .srh-aboutme {
+  text-align: right;
+  font-size: 1.2em;
+  color: var(--srh-text-description);
+  font-family: 'Chelsea Market', cursive;
 }
 
 .srh-profile .srh-my-links {
@@ -41,5 +49,8 @@
     height: auto;
     padding: 1em;
     align-items: center;
+  }
+  .srh-profile .srh-aboutme {
+    text-align: center;
   }
 }

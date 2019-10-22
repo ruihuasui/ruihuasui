@@ -10,6 +10,9 @@ export function Profile({}) {
     <div className="srh-profile">
       <Image />
       <h1 className="srh-name">R<span>UIHUA</span> S<span>UI</span></h1>
+      <p className="srh-aboutme">
+        Full-time programmer, part-time web design lover, <br/>cant-find-time video editing amateur
+      </p>
       <Card 
         name="uni"
         //title=""
