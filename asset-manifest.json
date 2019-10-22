@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ruihuasui/static/css/main.3af531d8.chunk.css",
-    "main.js": "/ruihuasui/static/js/main.4735adef.chunk.js",
-    "main.js.map": "/ruihuasui/static/js/main.4735adef.chunk.js.map",
+    "main.js": "/ruihuasui/static/js/main.e8ac6e4d.chunk.js",
+    "main.js.map": "/ruihuasui/static/js/main.e8ac6e4d.chunk.js.map",
     "runtime-main.js": "/ruihuasui/static/js/runtime-main.b0ebd10f.js",
     "runtime-main.js.map": "/ruihuasui/static/js/runtime-main.b0ebd10f.js.map",
     "static/css/2.77ac00bb.chunk.css": "/ruihuasui/static/css/2.77ac00bb.chunk.css",
     "static/js/2.fc8fc0ab.chunk.js": "/ruihuasui/static/js/2.fc8fc0ab.chunk.js",
     "static/js/2.fc8fc0ab.chunk.js.map": "/ruihuasui/static/js/2.fc8fc0ab.chunk.js.map",
     "index.html": "/ruihuasui/index.html",
-    "precache-manifest.100147b888701b43b47f4349d43c8294.js": "/ruihuasui/precache-manifest.100147b888701b43b47f4349d43c8294.js",
+    "precache-manifest.981e6b61b7f1717bd488d61db6620d18.js": "/ruihuasui/precache-manifest.981e6b61b7f1717bd488d61db6620d18.js",
     "service-worker.js": "/ruihuasui/service-worker.js",
     "static/css/2.77ac00bb.chunk.css.map": "/ruihuasui/static/css/2.77ac00bb.chunk.css.map",
     "static/css/main.3af531d8.chunk.css.map": "/ruihuasui/static/css/main.3af531d8.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.77ac00bb.chunk.css",
     "static/js/2.fc8fc0ab.chunk.js",
     "static/css/main.3af531d8.chunk.css",
-    "static/js/main.4735adef.chunk.js"
+    "static/js/main.e8ac6e4d.chunk.js"
   ]
 }
