@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Microlink from '@microlink/react'
+// import Microlink from '@microlink/react'
 import { Popup } from 'semantic-ui-react'
 import { logo } from '../../assets'
 import './index.css'
@@ -19,8 +19,8 @@ export function SLink({
 
   if (Boolean(icon)) {
     return (
-      <Popup inverted
-        content={name}
+      <Popup inverted hoverable
+        content={<div dangerouslySetInnerHTML={{__html: name}}></div>}
         openOnTriggerFocus
         closeOnTriggerBlur
         mouseEnterDelay={500}
