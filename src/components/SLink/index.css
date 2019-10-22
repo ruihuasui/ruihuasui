@@ -4,8 +4,8 @@
   padding: 10px;
   border-radius: 50%;
   /* background: var(--srh-grey-light); */
-  width: 40px;
-  height: 40px;
+  width: 43px;
+  height: 43px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -23,11 +23,12 @@
 }
 
 .srh-link-img {
-  height: 20px;
+  height: 25px;
 }
 
 .srh-link-opico, .srh-link-ct, .srh-link-github {
-  margin-left: .1em;
+  margin-top: -5px;
+  margin-left: .2em;
 }
 .srh-link-icon {
   background: var(--srh-grey-light);
@@ -54,7 +55,7 @@
 
 @media screen and (max-width: 900px) {
   .srh-link-opico, .srh-link-ct, .srh-link-github {
-    margin-left: .1em;
+    margin-left: 0em;
     /* color: white !important; */
   }
 }
