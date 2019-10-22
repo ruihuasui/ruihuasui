@@ -25,7 +25,7 @@
 
 .srh-skills-title {
   font-family: var(--srh-font-primary);
-  margin-bottom: 7px !important;
+  margin-bottom: 0 !important;
 }
 
 .skill-list {
