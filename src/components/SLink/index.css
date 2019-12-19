@@ -3,7 +3,6 @@
   font-size: 1.7em;
   padding: 10px;
   border-radius: 50%;
-  /* background: var(--srh-grey-light); */
   width: 43px;
   height: 43px;
   display: flex;
@@ -19,25 +18,31 @@
 }
 
 .srh-link:hover, .srh-link:focus {
-  background: var(--srh-grey-light);
+  background: var(--srh-grey-light-dark);
 }
 
 .srh-link-img {
   height: 25px;
+  border-radius: 2px;
 }
 
-.srh-link-opico, .srh-link-ct, .srh-link-github {
+.srh-link-opico, .srh-link-ct, .srh-link-github, .srh-link-logo {
   margin-top: -5px;
   margin-left: .2em;
 }
 .srh-link-icon {
-  background: var(--srh-grey-light);
+  background: var(--srh-grey-light-dark);
   margin-top: .5em;
   width: 40px;
   overflow: hidden;
   height: 40px;
   margin-left: .5em;
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 
   transition: var(--srh-transi-width);
   -o-transition: var(--srh-transi-width);
@@ -46,6 +51,7 @@
 }
 
 .srh-link-icon i {
+  display: block;
   font-size: 25px !important;
   margin: 0 !important;
 }

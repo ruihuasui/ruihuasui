@@ -1,2 +1,2 @@
 # ruihuasui
-A personal website about my self
+Personal portfolio website

@@ -1,15 +1,16 @@
-export const projects = require('./projects.json')
-export const profileLinks = require('./links.json')
-export const mySkills = require('./skills.json')
-
-export const profilePhoto = require('./profile.jpg')
-export const resume = require('./srh-resume.pdf')
 
 export const logo = {
   github: require('./github-logo.png'),
   ct: require('./ct-logo.png'),
   opico: require('./opico-logo.png'),
 }
+
+export { projects } from './project.data.js'
+export const profileLinks = require('./links.json')
+export const mySkills = require('./skills.json')
+
+export const profilePhoto = require('./profile.jpg')
+export const resume = require('./srh-resume.pdf')
 
 // export const web = {
 //   github: {

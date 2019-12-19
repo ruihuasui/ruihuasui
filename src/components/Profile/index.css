@@ -7,10 +7,15 @@
   justify-content: center;
   align-items: flex-end;
   padding: 1em 3em 0 1em;
-  /* background: var(--srh-grey-light); */
-  /* border-right: 1px solid var(--srh-grey-light) ; */
+  position: sticky;
+  top: 0;
 }
-
+.srh-profile .profile-info {
+  background: black;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
 .srh-profile-img img {
   width: 350px;
   height: 350px;
@@ -19,36 +24,62 @@
 }
 
 .srh-profile .srh-name {
+  width: 100%;
   text-align: right;
   margin-bottom: 0;
   font-family: var(--srh-font-name);
   font-size: 50px;
+  color: white;
 }
 
 .srh-profile .srh-name span {
   font-size: 40px;
-  color: var(--srh-text-primary-light);
+  color: var(--srh-text-primary-light-dark);
 }
 
 .srh-profile .srh-aboutme {
   text-align: right;
   font-size: 1.2em;
-  color: var(--srh-text-description);
+  color: var(--srh-text-description-dark);
   font-family: 'Chelsea Market', cursive;
 }
 
 .srh-profile .srh-my-links {
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
+  background: black;
 }
 
 @media screen and (max-width: 900px) {
   .srh-profile {
+    position: relative;
     width: 100%;
     max-width: unset;
     height: auto;
-    padding: 1em;
+    padding: 0;
     align-items: center;
+  }
+  .srh-profile-img img {
+    width: 100%;
+    height: auto;
+  }
+  .srh-profile-img {
+    position: sticky;
+    top: 0;
+  }
+  .srh-profile .srh-name {
+    text-align: center;
+  }
+  .srh-profile .profile-info {
+    margin-top: -1.5em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .srh-profile .srh-my-links {
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
   }
   .srh-profile .srh-aboutme {
     text-align: center;

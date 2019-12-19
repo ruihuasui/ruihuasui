@@ -1,7 +1,9 @@
 :root {
   /* Background */
   --srh-bg-light: #fcfcfc;
+  --srh-bg-dark: black;
   --srh-grey-light: rgb(243, 243, 243);
+  --srh-grey-light-dark: rgb(70, 70, 70);
 
   /* Font */
   --srh-font-narrow: 'Roboto Condensed', sans-serif;
@@ -10,11 +12,15 @@
   --srh-font-name: 'Chelsea Market', cursive;
   /* Color */
   --srh-text-primary: #383838;
+  --srh-text-primary-dark: #f3f3f3;
   --srh-text-primary-light: #4e4e4e;
+  --srh-text-primary-light-dark: #a5a5a5;
   --srh-text-description: #666666;
+  --srh-text-description-dark: #d4d4d4;
 
   /* border */
   --srh-border-primary: #d1d1d1 solid 1px;
+  --srh-border-primary-dark: #a7a7a7 solid 1px;
 
   /* Transition */
   --srh-transi-bg: background .2s linear;
@@ -25,3 +31,24 @@
   --srh-transi-transform: transform .2s linear;
   --srh-transi-all: all .2s linear;
 }
+
+.srh-home a {
+  color: rgb(0, 195, 255);
+}
+.srh-home a:hover {
+  color: rgb(0, 247, 255);
+  /* text-decoration: underline; */
+}
+.srh-home a:focus {
+  outline-color: rgb(0, 247, 255);
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+/* .uofi {
+  border-radius: 10px;
+  background-color: #0455A4;
+  color: #E84A27;
+  color: #0455A4;
+  padding: 0em .2em;
+} */

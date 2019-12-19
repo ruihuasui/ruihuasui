@@ -10,12 +10,13 @@ export function SLink({
   pathname=window.location.pathname,
   name="",
   type="",
+  img=null,
   icon=null,
 }) {
 
   const className = `srh-link srh-link-${type}`
 
-  const imgSrc = logo[type]
+  const imgSrc = img || logo['github']
 
   if (Boolean(icon)) {
     return (

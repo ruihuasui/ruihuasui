@@ -3,15 +3,17 @@
   display: flex;
   flex-direction: row;
   width: 100%;
+  background: var(--srh-bg-dark);
 }
 
 .srh-projs {
+  position: relative;
+  display: block;
   width: 55%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1em;
-  height: 100vh;
+  padding: 2em 1em;
   overflow-x: hidden;
   overflow-y: auto;
 }
@@ -19,10 +21,10 @@
 .srh-skills {
   margin-top: 2em;
   margin-left: -1em;
-  background: var(--srh-grey-light);
+  background: var(--srh-grey-light-dark);
   border-radius: 20px;
   padding: .5em 1em;
-  color: var(--srh-text-primary-light);
+  color: white;
 }
 
 .srh-skills-title {
@@ -51,7 +53,7 @@
   padding-bottom: 10px;
   height: 100%;
   width: 100%;
-  border-bottom: var(--srh-border-primary);
+  border-bottom: var(--srh-border-primary-dark);
 }
 
 .skill-info[type=table_chart] {
@@ -71,7 +73,7 @@
 @media screen and (max-width: 900px) {
   .srh-home {
     flex-direction: column;
-    padding-bottom: 10em;
+    padding-bottom: 2em;
   }
   .srh-projs {
     width: 100%;

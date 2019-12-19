@@ -9,17 +9,24 @@ export function Profile({}) {
   return (
     <div className="srh-profile">
       <Image />
-      <h1 className="srh-name">R<span>UIHUA</span> S<span>UI</span></h1>
-      <p className="srh-aboutme">
-        Full-time programmer, part-time web design lover, <br/>cant-find-time video editing amateur
-      </p>
-      <Card 
-        name="uni"
-        //title=""
-        role={<>Senior student in Mathematics & Computer Science <br/> @ University of Illinois at Urbana-Champaign</>}
-        description="Jan 2018 - May 2020"
-      />
-      <Links />
+      <div className="profile-info">
+        <h1 className="srh-name">R<span>UIHUA</span> S<span>UI</span></h1>
+        <p className="srh-aboutme">
+          Full-time programmer, part-time web design lover, <br/>cant-find-time video editing amateur
+        </p>
+        <Card 
+          name="uni"
+          //title=""
+          role={
+            <>
+              Senior student in Mathematics & Computer Science <br/> 
+              @ <span className="uofi">University of Illinois at Urbana-Champaign</span>
+            </>
+          }
+          description="Jan 2018 - May 2020"
+        />
+        <Links />
+      </div>
     </div>
   )
 }

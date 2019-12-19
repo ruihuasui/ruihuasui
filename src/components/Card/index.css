@@ -20,40 +20,94 @@
   display: flex;
   flex-direction: row; 
   align-items: center;
+  color: white;
 }
 
 .srh-proj-card .proj-title {
   font-size: 3em;
   /* font-weight: bold; */
   font-family: var(--srh-font-primary);
-  /* color: rgb(12, 85, 85); */
+  margin-bottom: 8px;
+}
+.srh-proj-card .proj-role-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: .5em;
 }
 .srh-proj-card .proj-role {
   font-size: 1.7em;
   font-weight: bold;
-  color: var(--srh-text-primary-light);
+  color: white;
   font-family: var(--srh-font-primary);
   margin: 0 !important;
   padding: 0 !important;
+}
+.srh-proj-card .proj-time {
+  color: var(--srh-text-primary-light-dark);;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: var(--srh-font-narrow);
 }
 
 .srh-proj-card .proj-description {
   margin: 0 !important;
   font-size: 1.7em;
+  /* text-indent: 1em; */
   font-family: Arial, Helvetica, sans-serif;
-  color: var(--srh-text-description);
+  color: var(--srh-text-description-dark);
   font-family: var(--srh-font-narrow);
 }
-.srh-proj-card .proj-description a {
-  padding: 0 5px;
-  margin: 0 2px;
-  border-radius: 10px;
-  outline: none !important;
+
+#contri-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0em;
 }
 
-.srh-proj-card .proj-description a:hover, .srh-proj-card .proj-description a:focus {
-  background: var(--srh-grey-light);
+#contri-list li {
+  position: relative;
+  display: flex;
+  height: auto;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  line-height: normal;
+  margin: 0 0 .5em 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--srh-text-description-dark);
+  font-family: var(--srh-font-narrow);
 }
+#contri-list .list-dot {
+  min-width: 25px;
+  padding-top: 6px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: var(--srh-font-primary-dark);
+  font-size: 1.2em;
+  color: rgb(0, 255, 213);
+}
+
+.contri-listitem-text {
+  font-size: 1.7em;
+  text-align: left;
+  /* text-indent: 1em; */
+}
+/* .srh-proj-card .proj-description a, 
+.contri-listitem-text a {
+  border-radius: 10px;
+  outline: none !important;
+} */
+
+/* .srh-proj-card .proj-description a:hover, 
+.srh-proj-card .proj-description a:focus,
+.contri-listitem-text a:hover,
+.contri-listitem-text a:focus {
+  background: var(--srh-grey-light-dark) !important;
+} */
 
 @media screen and (max-width: 900px) {
   .srh-card-uni {
