@@ -23,7 +23,7 @@ export function Profile({}) {
               @ <span className="uofi">University of Illinois at Urbana-Champaign</span>
             </>
           }
-          description="Jan 2018 - May 2020"
+          description="Jan 2018 - Dec 2020"
         />
         <Links />
       </div>
