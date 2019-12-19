@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ruihuasui/static/css/main.f6d787a9.chunk.css",
-    "main.js": "/ruihuasui/static/js/main.8992bafc.chunk.js",
-    "main.js.map": "/ruihuasui/static/js/main.8992bafc.chunk.js.map",
+    "main.js": "/ruihuasui/static/js/main.19bf3eb3.chunk.js",
+    "main.js.map": "/ruihuasui/static/js/main.19bf3eb3.chunk.js.map",
     "runtime-main.js": "/ruihuasui/static/js/runtime-main.b0ebd10f.js",
     "runtime-main.js.map": "/ruihuasui/static/js/runtime-main.b0ebd10f.js.map",
     "static/css/2.77ac00bb.chunk.css": "/ruihuasui/static/css/2.77ac00bb.chunk.css",
     "static/js/2.67651934.chunk.js": "/ruihuasui/static/js/2.67651934.chunk.js",
     "static/js/2.67651934.chunk.js.map": "/ruihuasui/static/js/2.67651934.chunk.js.map",
     "index.html": "/ruihuasui/index.html",
-    "precache-manifest.4228c25fda04af9d67ff6459b3123afe.js": "/ruihuasui/precache-manifest.4228c25fda04af9d67ff6459b3123afe.js",
+    "precache-manifest.f0aab057b8f38619c876b06edb67d424.js": "/ruihuasui/precache-manifest.f0aab057b8f38619c876b06edb67d424.js",
     "service-worker.js": "/ruihuasui/service-worker.js",
     "static/css/2.77ac00bb.chunk.css.map": "/ruihuasui/static/css/2.77ac00bb.chunk.css.map",
     "static/css/main.f6d787a9.chunk.css.map": "/ruihuasui/static/css/main.f6d787a9.chunk.css.map",
@@ -24,6 +24,6 @@
     "static/css/2.77ac00bb.chunk.css",
     "static/js/2.67651934.chunk.js",
     "static/css/main.f6d787a9.chunk.css",
-    "static/js/main.8992bafc.chunk.js"
+    "static/js/main.19bf3eb3.chunk.js"
   ]
 }
