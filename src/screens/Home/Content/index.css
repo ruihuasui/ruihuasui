@@ -62,7 +62,7 @@
 }
 
 .skill-info {
-  padding: 1.2em 0;
+  padding: 1.2em 0 1.2em .4em;
   height: 100%;
   width: 100%;
   border-bottom: var(--srh-border-primary-dark);

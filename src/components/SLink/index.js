@@ -35,9 +35,10 @@ export function SLink({
   }
 
   return (
-    <Popup wide inverted
+    <Popup wide inverted basic
       openOnTriggerFocus
       closeOnTriggerBlur
+      position="top center"
       //mouseEnterDelay={500}
       trigger={
         within ?

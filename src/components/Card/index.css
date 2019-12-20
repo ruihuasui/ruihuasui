@@ -13,8 +13,8 @@
   margin-bottom: 0em;
   align-items: flex-end;
 }
-.srh-card-uni p, .srh-card-uni h2 {
-  justify-content: flex-end;
+.srh-card-uni .proj-role {
+  width: 100%;
   text-align: right;
 }
 .srh-card-uni .proj-outline-text {
@@ -230,6 +230,8 @@
   .srh-proj-card .proj-img {
     overflow: hidden;
     object-fit: scale-down;
+    margin-bottom: 1em;
+    margin-top: .5em;
   }
   .srh-proj-card .proj-img[data-name=webgames] {
     margin-top: 0;
