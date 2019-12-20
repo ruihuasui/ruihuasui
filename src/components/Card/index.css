@@ -192,7 +192,19 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    border-top: 1px solid rgb(68, 68, 68);
+    border-bottom: 1px solid rgb(68, 68, 68);
+    border-radius: 0;
+    padding-top: 1em;
+    padding-bottom: 2.5em;
   }
+  .srh-card-uni .proj-role {
+    text-align: center;
+  }
+  .srh-card-uni .proj-outline-text p {
+    text-align: center;
+  }
+  
   .srh-proj-card {
     justify-content: center;
     align-items: center;
@@ -235,5 +247,9 @@
   }
   .srh-proj-card .proj-img[data-name=webgames] {
     margin-top: 0;
+  }
+  .srh-proj-card .proj-description {
+    text-indent: 0;
+    text-align: center;
   }
 }

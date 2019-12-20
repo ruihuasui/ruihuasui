@@ -9,6 +9,7 @@
   padding: 2em 1em;
   overflow-x: hidden;
   overflow-y: auto;
+  margin: 0;
 }
 
 /* .sec-title::before {
@@ -31,9 +32,10 @@
 /* Skills */
 
 .srh-skills {
+  display: block;
   margin-top: 2em;
   margin-left: -1em;
-  /* background: var(--srh-grey-light-dark); */
+  background: var(--srh-bg-dark);
   border-radius: 10px;
   padding: .5em 1em;
   color: white;
@@ -99,6 +101,9 @@
     width: 100%;
     height: auto;
   }
+  /* .sec-title {
+    border-bottom: 1px solid rgb(68, 68, 68);
+  } */
   .srh-skills {
     margin-left: 0em;
   }
