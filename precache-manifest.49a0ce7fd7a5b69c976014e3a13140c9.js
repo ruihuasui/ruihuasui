@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66779017f62cdc570736ac96059bd54e",
+    "revision": "db24a4b22d6a45a1ed0f97287e1ef178",
     "url": "/ruihuasui/index.html"
   },
   {
-    "revision": "9022d924afddbd642b8d",
+    "revision": "839e54794c5a58a0f633",
     "url": "/ruihuasui/static/css/2.77ac00bb.chunk.css"
   },
   {
-    "revision": "d2b209d14b99d234763c",
-    "url": "/ruihuasui/static/css/main.9814c095.chunk.css"
+    "revision": "4c07dc0099e9fa034c8c",
+    "url": "/ruihuasui/static/css/main.d22630d7.chunk.css"
   },
   {
-    "revision": "9022d924afddbd642b8d",
-    "url": "/ruihuasui/static/js/2.67651934.chunk.js"
+    "revision": "839e54794c5a58a0f633",
+    "url": "/ruihuasui/static/js/2.dd28e0f5.chunk.js"
   },
   {
-    "revision": "d2b209d14b99d234763c",
-    "url": "/ruihuasui/static/js/main.19bf3eb3.chunk.js"
+    "revision": "4c07dc0099e9fa034c8c",
+    "url": "/ruihuasui/static/js/main.61432a8e.chunk.js"
   },
   {
     "revision": "268a7383d244635a450c",
@@ -44,12 +44,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruihuasui/static/media/brand-icons.e8c322de.woff2"
   },
   {
+    "revision": "c6bdb9f0bcac05ab5e601c8771c0858a",
+    "url": "/ruihuasui/static/media/ct-demo.c6bdb9f0.png"
+  },
+  {
     "revision": "1a1e80a1878b2e59da2a29ac929f329b",
     "url": "/ruihuasui/static/media/ct-logo.1a1e80a1.png"
   },
   {
     "revision": "9c74e172f87984c48ddf5c8108cabe67",
     "url": "/ruihuasui/static/media/flags.9c74e172.png"
+  },
+  {
+    "revision": "002ea99205fcf31aebfa15856ecd7390",
+    "url": "/ruihuasui/static/media/godutch-demo.002ea992.png"
   },
   {
     "revision": "0ab54153eeeca0ce03978cc463b257f7",
@@ -70,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "faff92145777a3cbaf8e7367b4807987",
     "url": "/ruihuasui/static/media/icons.faff9214.woff"
+  },
+  {
+    "revision": "cbbe49a815db56b8f02e60ee74b52597",
+    "url": "/ruihuasui/static/media/opico-demo.cbbe49a8.png"
   },
   {
     "revision": "939c8dcf61df71f89b333c78f56f3386",
@@ -102,5 +114,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5df0bfce84b71fa2bb622bbc94a3533e",
     "url": "/ruihuasui/static/media/srh-resume.5df0bfce.pdf"
+  },
+  {
+    "revision": "1824a371ee9219a4dcac30a1dd33c110",
+    "url": "/ruihuasui/static/media/web-games-demo.1824a371.png"
   }
 ]);

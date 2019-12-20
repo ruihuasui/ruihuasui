@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/ruihuasui/static/css/main.9814c095.chunk.css",
-    "main.js": "/ruihuasui/static/js/main.19bf3eb3.chunk.js",
-    "main.js.map": "/ruihuasui/static/js/main.19bf3eb3.chunk.js.map",
+    "main.css": "/ruihuasui/static/css/main.d22630d7.chunk.css",
+    "main.js": "/ruihuasui/static/js/main.61432a8e.chunk.js",
+    "main.js.map": "/ruihuasui/static/js/main.61432a8e.chunk.js.map",
     "runtime-main.js": "/ruihuasui/static/js/runtime-main.b0ebd10f.js",
     "runtime-main.js.map": "/ruihuasui/static/js/runtime-main.b0ebd10f.js.map",
     "static/css/2.77ac00bb.chunk.css": "/ruihuasui/static/css/2.77ac00bb.chunk.css",
-    "static/js/2.67651934.chunk.js": "/ruihuasui/static/js/2.67651934.chunk.js",
-    "static/js/2.67651934.chunk.js.map": "/ruihuasui/static/js/2.67651934.chunk.js.map",
+    "static/js/2.dd28e0f5.chunk.js": "/ruihuasui/static/js/2.dd28e0f5.chunk.js",
+    "static/js/2.dd28e0f5.chunk.js.map": "/ruihuasui/static/js/2.dd28e0f5.chunk.js.map",
     "index.html": "/ruihuasui/index.html",
-    "precache-manifest.f286415d681da732b703db7655cc1911.js": "/ruihuasui/precache-manifest.f286415d681da732b703db7655cc1911.js",
+    "precache-manifest.49a0ce7fd7a5b69c976014e3a13140c9.js": "/ruihuasui/precache-manifest.49a0ce7fd7a5b69c976014e3a13140c9.js",
     "service-worker.js": "/ruihuasui/service-worker.js",
     "static/css/2.77ac00bb.chunk.css.map": "/ruihuasui/static/css/2.77ac00bb.chunk.css.map",
-    "static/css/main.9814c095.chunk.css.map": "/ruihuasui/static/css/main.9814c095.chunk.css.map",
+    "static/css/main.d22630d7.chunk.css.map": "/ruihuasui/static/css/main.d22630d7.chunk.css.map",
     "static/media/semantic.min.css": "/ruihuasui/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/ct-demo.png": "/ruihuasui/static/media/ct-demo.c6bdb9f0.png",
     "static/media/ct-logo.png": "/ruihuasui/static/media/ct-logo.1a1e80a1.png",
+    "static/media/godutch-demo.png": "/ruihuasui/static/media/godutch-demo.002ea992.png",
+    "static/media/opico-demo.png": "/ruihuasui/static/media/opico-demo.cbbe49a8.png",
     "static/media/opico-logo.png": "/ruihuasui/static/media/opico-logo.939c8dcf.png",
     "static/media/profile.jpg": "/ruihuasui/static/media/profile.94dcf907.jpg",
-    "static/media/srh-resume.pdf": "/ruihuasui/static/media/srh-resume.5df0bfce.pdf"
+    "static/media/srh-resume.pdf": "/ruihuasui/static/media/srh-resume.5df0bfce.pdf",
+    "static/media/web-games-demo.png": "/ruihuasui/static/media/web-games-demo.1824a371.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b0ebd10f.js",
     "static/css/2.77ac00bb.chunk.css",
-    "static/js/2.67651934.chunk.js",
-    "static/css/main.9814c095.chunk.css",
-    "static/js/main.19bf3eb3.chunk.js"
+    "static/js/2.dd28e0f5.chunk.js",
+    "static/css/main.d22630d7.chunk.css",
+    "static/js/main.61432a8e.chunk.js"
   ]
 }
