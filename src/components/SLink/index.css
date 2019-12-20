@@ -26,9 +26,10 @@
   border-radius: 2px;
 }
 
-.srh-link-opico, .srh-link-ct, .srh-link-github, .srh-link-logo {
+.srh-link-logo {
   margin-top: -5px;
   margin-left: .2em;
+  background-color: rgba(70, 70, 70, 0.356);
 }
 .srh-link-icon {
   background: var(--srh-grey-light-dark);

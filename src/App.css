@@ -6,7 +6,7 @@ html {
 body {
   background: var(--srh-bg-dark);
   font-family: var(--srh-font-primary);
-  color: var(--srh-text-primary);
+  color: var(--srh-text-primary-dark);
   font-size: 0.875rem !important;
   font-weight: 400;
   line-height: 1.43;

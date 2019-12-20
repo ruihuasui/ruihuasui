@@ -3,9 +3,9 @@ import './index.css'
 
 import Image from './Image'
 import Links from './Links'
-import { Card } from '../Card'
+import { Card } from '../../../components/Card'
 
-export function Profile({}) {
+export default function Profile({}) {
   return (
     <div className="srh-profile">
       <Image />

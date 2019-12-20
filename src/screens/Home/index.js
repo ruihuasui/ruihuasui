@@ -1,13 +1,13 @@
 import React from 'react'
-import { Profile } from '../../components'
-import Projects from './Projects'
+import Profile from './Profile'
+import Content from './Content'
 import './index.css'
 
 export function Home({}) {
   return (
     <main className="srh-home">
       <Profile />
-      <Projects />
+      <Content />
     </main>
   )
 } 

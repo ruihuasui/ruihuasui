@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from 'semantic-ui-react'
-import { SLink } from '../SLink'
-import { profileLinks, resume } from '../../assets'
+import { SLink } from '../../../components/SLink'
+import { profileLinks, resume } from '../../../assets'
 
 export default function Links({}) {
   return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { profilePhoto } from '../../assets'
+import { profilePhoto } from '../../../assets'
 
 export default function Image({
 

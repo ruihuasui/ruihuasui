@@ -1,20 +1,31 @@
 .srh-proj-card {
   max-width: 100%;
-  margin-top: 2em;
+  margin-bottom: 2em;
   display: flex;
   flex-direction: column;
 }
 
+/* University Card */
 .srh-card-uni {
   /* background: var(--srh-grey-light);
   padding: 1em; */
   border-radius: 15px;
-  margin-top: 0em;
+  margin-bottom: 0em;
   align-items: flex-end;
 }
 .srh-card-uni p, .srh-card-uni h2 {
+  justify-content: flex-end;
   text-align: right;
 }
+.srh-card-uni .proj-outline-text {
+  width: 100%;
+}
+.srh-card-uni .proj-outline-text p {
+  text-align: right;
+  margin-bottom: 0 !important;
+}
+
+/* Project Card */
 
 .srh-proj-card .proj-header {
   display: flex;
@@ -22,14 +33,20 @@
   align-items: center;
   color: white;
 }
+.proj-header-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 .srh-proj-card .proj-title {
-  font-size: 3em;
+  font-size: 2.5em;
   /* font-weight: bold; */
   font-family: var(--srh-font-primary);
   margin-bottom: 8px;
 }
 .srh-proj-card .proj-role-time {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,9 +54,9 @@
   margin-bottom: .5em;
 }
 .srh-proj-card .proj-role {
-  font-size: 1.7em;
+  font-size: 1.5em;
   font-weight: bold;
-  color: white;
+  color: rgb(224, 224, 224);
   font-family: var(--srh-font-primary);
   margin: 0 !important;
   padding: 0 !important;
@@ -51,19 +68,78 @@
   font-family: var(--srh-font-narrow);
 }
 
+.proj-outline {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.proj-outline-text {
+  position: relative;
+  width: 60%;
+}
+.proj-outline-img {
+  position: relative;
+  width: 40%;
+}
+.srh-proj-card .proj-img {
+  height: 250px;
+  overflow: hidden;
+  object-fit: scale-down;
+}
+.srh-proj-card .proj-img[data-name=webgames] {
+  margin-top: 2em;
+  max-height: 120px;
+}
+
 .srh-proj-card .proj-description {
-  margin: 0 !important;
+  text-align: left;
+  margin: 0 0 1em 0 !important;
   font-size: 1.7em;
-  /* text-indent: 1em; */
+  text-indent: 1em;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--srh-text-description-dark);
   font-family: var(--srh-font-narrow);
 }
-
+.show-detail-btn {
+  position: relative;
+  margin-top: -6em !important;
+  z-index: 1;
+}
+.show-detail-btn .show-detail-btn-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0 0 0;
+  /* border-radius: 30px; */
+  transition: all .5s ease-in-out;
+  color: rgb(236, 236, 236);
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.74), black);
+}
+.show-detail-btn:hover>.show-detail-btn-content {
+  color: white;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.794), black);
+}
+.show-detail-btn-text {
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-shadow: 20px 10px black;
+}
 #contri-list {
+  position: relative;
   list-style: none;
   margin-left: 0;
   padding-left: 0em;
+  overflow: hidden;
+  max-height: 6.5em;
+  transition: all .7s linear;
+}
+#contri-list[data-show=true] {
+  max-height: 90em;
 }
 
 #contri-list li {
@@ -88,7 +164,7 @@
   font-weight: bold;
   font-family: var(--srh-font-primary-dark);
   font-size: 1.2em;
-  color: rgb(0, 255, 213);
+  color: var(--srh-green-light);
   pointer-events: none;
 }
 
@@ -97,6 +173,7 @@
   text-align: left;
   /* text-indent: 1em; */
 }
+
 /* .srh-proj-card .proj-description a, 
 .contri-listitem-text a {
   border-radius: 10px;
@@ -133,7 +210,28 @@
 }
 
 @media screen and (max-width: 520px) {
-  /* .srh-proj-card:hover {
-    
-  } */
+  .srh-proj-card .proj-header {
+    flex-direction: column;
+  }
+  .srh-proj-card .proj-header i {
+    display: none;
+  }
+  .proj-outline {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .proj-outline-text {
+    width: 100%;
+  }
+  .proj-outline-img {
+    width: 100%;
+  }
+  .srh-proj-card .proj-img {
+    overflow: hidden;
+    object-fit: scale-down;
+  }
+  .srh-proj-card .proj-img[data-name=webgames] {
+    margin-top: 0;
+  }
 }

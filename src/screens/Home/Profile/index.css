@@ -63,6 +63,7 @@
   .srh-profile-img img {
     width: 100%;
     height: auto;
+    max-width: 500px;
   }
   .srh-profile-img {
     position: sticky;
@@ -72,6 +73,7 @@
     text-align: center;
   }
   .srh-profile .profile-info {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.664);
     margin-top: -1.5em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
