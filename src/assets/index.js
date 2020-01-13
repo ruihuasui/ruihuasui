@@ -6,7 +6,7 @@ export const logo = {
 }
 
 export { projects } from './project.data.js'
-export const profileLinks = require('./links.json')
+export { profileLinks } from './profile.links.data'
 export const mySkills = require('./skills.json')
 
 export const profilePhoto = require('./profile.jpg')

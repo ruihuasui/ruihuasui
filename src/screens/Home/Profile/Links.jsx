@@ -1,7 +1,7 @@
 import React from 'react'
 import { Icon } from 'semantic-ui-react'
 import { SLink } from '../../../components/SLink'
-import { profileLinks, resume } from '../../../assets'
+import { profileLinks } from '../../../assets'
 
 export default function Links({}) {
   return (
@@ -12,7 +12,7 @@ export default function Links({}) {
           type="icon"
           icon={<Icon size='large' name={link.icon} />}
           name={link.name}
-          pathname={link.pathname || resume}
+          pathname={link.pathname}
         />
       )}
     </div>

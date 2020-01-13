@@ -1,4 +1,4 @@
-[
+export const profileLinks = [
   {
     "name": "github.com/ruihuasui",
     "icon": "github",
@@ -12,11 +12,11 @@
   {
     "name": "Click to send me an email! <br/>Or copy it here: ruihua.sui@gmail.com",
     "icon": "mail",
-    "pathname": "mailto:ruihua.sui@gmail.com"
+    "pathname": 'mailto:ruihua.sui@gmail.com'
   },
   {
     "name": "Resume",
     "icon": "file alternate",
-    "pathname": ""
+    "pathname": require('./srh-resume.pdf')
   }
 ]

@@ -24,9 +24,10 @@ export function SLink({
         content={<div dangerouslySetInnerHTML={{__html: name}}></div>}
         openOnTriggerFocus
         closeOnTriggerBlur
+        openOnTriggerClick
         //mouseEnterDelay={500}
         trigger={
-          <a className={className} href={pathname}>
+          <a tabIndex="0" className={className} href={pathname}>
             {icon} {/*{name === 'Resume' && name}*/}
           </a>
         }
