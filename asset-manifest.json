@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ruihuasui/static/css/main.0a19248e.chunk.css",
+    "main.css": "/ruihuasui/static/css/main.eb4e9dcf.chunk.css",
     "main.js": "/ruihuasui/static/js/main.303b299d.chunk.js",
     "main.js.map": "/ruihuasui/static/js/main.303b299d.chunk.js.map",
     "runtime-main.js": "/ruihuasui/static/js/runtime-main.5c848d7b.js",
@@ -9,10 +9,10 @@
     "static/js/2.1b7a7bf5.chunk.js": "/ruihuasui/static/js/2.1b7a7bf5.chunk.js",
     "static/js/2.1b7a7bf5.chunk.js.map": "/ruihuasui/static/js/2.1b7a7bf5.chunk.js.map",
     "index.html": "/ruihuasui/index.html",
-    "precache-manifest.6320f5cac9e36fa1545a7a19958d3ceb.js": "/ruihuasui/precache-manifest.6320f5cac9e36fa1545a7a19958d3ceb.js",
+    "precache-manifest.175cc50a7c0a71aa497efa1a284dad83.js": "/ruihuasui/precache-manifest.175cc50a7c0a71aa497efa1a284dad83.js",
     "service-worker.js": "/ruihuasui/service-worker.js",
     "static/css/2.29829479.chunk.css.map": "/ruihuasui/static/css/2.29829479.chunk.css.map",
-    "static/css/main.0a19248e.chunk.css.map": "/ruihuasui/static/css/main.0a19248e.chunk.css.map",
+    "static/css/main.eb4e9dcf.chunk.css.map": "/ruihuasui/static/css/main.eb4e9dcf.chunk.css.map",
     "static/media/semantic.min.css": "/ruihuasui/static/media/outline-icons.ef60a4f6.woff",
     "static/media/contact-tracing.jpg": "/ruihuasui/static/media/contact-tracing.918fbf9f.jpg",
     "static/media/ct-demo.png": "/ruihuasui/static/media/ct-demo.c6bdb9f0.png",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.5c848d7b.js",
     "static/css/2.29829479.chunk.css",
     "static/js/2.1b7a7bf5.chunk.js",
-    "static/css/main.0a19248e.chunk.css",
+    "static/css/main.eb4e9dcf.chunk.css",
     "static/js/main.303b299d.chunk.js"
   ]
 }
