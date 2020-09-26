@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc2a25b461bf17bb15b153dbe9b2d8f5",
+    "revision": "d24e9f8de13902a9f363feb988cf7269",
     "url": "/ruihuasui/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruihuasui/static/css/2.29829479.chunk.css"
   },
   {
-    "revision": "9f4ec1a540e8d08f43b4",
-    "url": "/ruihuasui/static/css/main.eb4e9dcf.chunk.css"
+    "revision": "ed1b886ec245dab45c4a",
+    "url": "/ruihuasui/static/css/main.c7086429.chunk.css"
   },
   {
     "revision": "b320f64fad37de649a03",
     "url": "/ruihuasui/static/js/2.1b7a7bf5.chunk.js"
   },
   {
-    "revision": "9f4ec1a540e8d08f43b4",
-    "url": "/ruihuasui/static/js/main.303b299d.chunk.js"
+    "revision": "ed1b886ec245dab45c4a",
+    "url": "/ruihuasui/static/js/main.39bd9f7c.chunk.js"
   },
   {
     "revision": "6145587b7e1e59b84326",
@@ -116,8 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruihuasui/static/media/outline-icons.ef60a4f6.woff"
   },
   {
-    "revision": "5dd37c28e5a45956fe79eb795dea0fde",
-    "url": "/ruihuasui/static/media/profile.5dd37c28.jpg"
+    "revision": "e52b15be539375d03165675244c1e77b",
+    "url": "/ruihuasui/static/media/profile.e52b15be.jpg"
   },
   {
     "revision": "d07eb61748ac8ced542c35093689c5cc",
