@@ -27,6 +27,7 @@ export default function Image({
           src={profilePhoto}
           data-darkness={dark+'%'}
           onMouseEnter={handleShowVideo}
+          onTouchStart={handleShowVideo}
         />
       }
     </div>

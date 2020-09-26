@@ -10,7 +10,7 @@
   position: sticky;
   top: 0;
   margin: 0;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 .srh-profile .profile-info {
   background: black;
@@ -78,10 +78,10 @@
     padding: 0;
     align-items: center;
   }
-  .srh-profile-img img {
+  .srh-profile-img img, video {
     width: 100%;
     height: auto;
-    max-width: 500px;
+    max-width: 550px;
   }
   .srh-profile-img {
     position: sticky;
