@@ -11,6 +11,7 @@ export { researches } from './research.data'
 export const mySkills = require('./skills.json')
 
 export const profilePhoto = require('./profile.jpg')
+export const meCatVideo = require('./me-cat.MP4')
 export const resume = require('./srh-resume.pdf')
 
 export const githubLogo = require('./github-logo.png')

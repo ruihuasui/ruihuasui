@@ -21,13 +21,27 @@
 /* .srh-profile-img {
   
 } */
-.srh-profile-img img {
-  width: 350px;
+.srh-profile-img {
   height: 350px;
-  background: var(--srh-grey-light);
-  pointer-events: none;
+  width: 350px;
+  background: black;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.srh-profile-img img, .srh-profile-img video {
+  /* width: 350px; */
+  height: 350px;
+  background: inherit;
+  animation: showup 400ms linear;
+  position: absolute;
 }
 
+@keyframes showup {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 .srh-profile .srh-name {
   width: 100%;
   text-align: right;
@@ -72,6 +86,9 @@
   .srh-profile-img {
     position: sticky;
     top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .srh-profile .srh-name {
     margin: .5em 0 .3em 0;
