@@ -29,6 +29,7 @@
   position: relative;
   display: flex;
   justify-content: flex-start;
+  transition: all linear;
 }
 .srh-profile-img img, .srh-profile-img video {
   /* width: 350px; */
@@ -79,9 +80,10 @@
     align-items: center;
   }
   .srh-profile-img img, video {
-    width: 100%;
+    width: 100vw;
     height: auto;
-    max-width: 550px;
+    object-fit: cover;
+    /* max-width: 550px; */
   }
   .srh-profile-img {
     position: sticky;
@@ -95,7 +97,7 @@
     text-align: center;
   }
   .srh-profile .profile-info {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.664);
+    box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.253);
     margin-top: -1.5em;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
