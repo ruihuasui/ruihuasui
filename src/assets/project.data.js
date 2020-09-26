@@ -1,85 +1,5 @@
 export const projects = [
   {
-    name: "opico",
-    title: "Opico",
-    time: "August 2019 - Present",
-    role: "Backend Developer & Research Assistant",
-    img: require('./opico-demo.png'),
-    description: `
-      In the last two decades, Emoji have become a mainstay of digital communication, 
-      allowing ordinary people to convey ideas, concepts, and emotions with just a few Unicode characters. 
-      To investigate the properties of <a href="http://ranjithakumar.net/resources/opico.pdf">emoji-first communication</a>, 
-      I am working in Data Driven Design Research to modify and maintain <a href='https://www.opico.io/'><i>Opico</i></a>, a social media mobile app that allows users to create reactions --- 
-      sequences of between one and five emoji --- 
-      and share them with a network of friends.
-    `,
-    list: [
-      "Collaborated with <a href='http://ranjithakumar.net'>Prof. Ranjitha Kumar</a> on Data Driven Design Research.",
-      "Maintained the API service for <a href='https://www.opico.io/'><i>Opico</i></a>, a mobile application used to study emoji-first communication in modern society, that allows people to share and discover places through emoji reactions.",
-      "Designed and implemented API’s for the new feature <i>Collection</i>, a list of emoji reactions based on the user’s selection, using Feathers JS and PostgreSQL."
-    ],
-    links: [
-      {
-        link: 'https://www.opico.io/', 
-        name: 'opico.io', 
-        img: require('./opico-logo.png')
-      }
-    ],
-  },
-  {
-    name: "ct",
-    title: "ClassTranscribe",
-    time: "May 2019 - Present",
-    role: "Leading Frontend Developer & Research Assistant",
-    img: require('../assets/ct-demo.png'),
-    description: `
-      Online lectures have been considered as a useful educational tool among institutions of higher education. 
-      However, with the increase in universities' diversity, the demand for accessible and well-transcribed 
-      lecture videos has been rising in the past several years. 
-      The educational video hosting platform, <a href="https://classtranscribe.illinois.edu"><i>ClassTranscribe</i></a>, 
-      is designed to be accessible to all students, providing 
-      closed captions, audio descriptions, searchable and editable transcriptions, and customizable user preferences.
-    `,
-    list: [
-      ` 
-        Designed and developed the frontend of <a href="https://classtranscribe.illinois.edu"><i>ClassTranscribe</i></a>,
-        an educational video website launched by Microsoft Corporation 
-        and the University of Illinois as part of the 
-        <a href='https://cs.illinois.edu/news/microsoft-and-university-illinois-launch-accessibility-lighthouse-program'>2019 Lighthouse Accessibility Program</a>, 
-        using React JS, Bootstrap, and Redux.
-      `,
-      `
-        Built a highly accessible video player that 
-        synchronizes playback of two videos with closed captions, 
-        audio descriptions, searchable and editable transcriptions, 
-        and customizable user preferences.
-      `,
-      `
-        Implemented functionalities that provide streamlined keyboard accessibility 
-        throughout the whole website, and followed the 
-        <a href="https://www.w3.org/WAI/standards-guidelines/wcag/">Web Content Accessibility Guidelines (WCAG)</a>
-        to ensure the website is accessible to users with special needs.
-      `,
-      `
-        Attracted hundreds of active users and the attention from IT Accessibility Specialists 
-        of the University of Illinois that will help extend the user group and 
-        lead the website to further application.
-      `
-    ],
-    links: [
-      {
-        link: 'https://classtranscribe.illinois.edu', 
-        name: 'classtranscribe.illinois.edu', 
-        img: require('./ct-logo.png'),
-      },
-      {
-        link: 'https://github.com/classtranscribe/FrontEnd', 
-        name: 'github.com/classtranscribe/FrontEnd', 
-        img: null
-      },
-    ],
-  },
-  {
     name: "godutch",
     title: "GoDutch",
     time: "July 2019",
@@ -109,6 +29,7 @@ export const projects = [
       },
     ],
   },
+////////////////////////////////////////////////////
   {
     name: "webgames",
     title: "Web Games: Simple2048 and Gobang",
@@ -116,7 +37,7 @@ export const projects = [
     role: "Frontend",
     img: require('./web-games-demo.png'),
     description: `
-      I implemented these two single-page web games while learning <a href="https://reactjs.org/">React JS</a> and the basics of web development. 
+      I implemented these two single-page web games while learning React JS and the basics of web development. 
       Through developing them in 2 weeks I gained the skills and knowledge of Web Design and front-end development
       which helped my future exploration on building insteresting softwares.
     `,

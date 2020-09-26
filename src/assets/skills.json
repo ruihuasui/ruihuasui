@@ -1,12 +1,12 @@
 [
   {
     "name": "Programming Languages",
-    "content": "C, C++, Java, JavaScript, Python, HTML5, CSS3",
+    "content": "JavaScript, Python, C/C++, Java, Swift, HTML5, CSS3, Haskell",
     "icon": "code"
   },
   {
     "name": "Web/Mobile App Development",
-    "content": "React, React Native, Redux, FeathersJS, Flask, Bootstrap, Sequelize",
+    "content": "React JS, Redux JS, Node JS, React Native, Python Flask, Bootstrap, Docker, RESTful Web Services",
     "icon": "important_devices"
   },
   {

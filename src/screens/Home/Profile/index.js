@@ -13,6 +13,8 @@ export default function Profile({}) {
       if (window.innerWidth <= 900 && window.scrollY * 0.4 <= 100) {
         let d = parseInt(100 - window.scrollY * 0.4)
         setDark(d < 20 ? 0 : d)
+      } else if (window.innerWidth > 900) {
+        setDark(100);
       }
     })
   }, [])
