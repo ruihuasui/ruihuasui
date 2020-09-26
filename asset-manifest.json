@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/ruihuasui/static/css/main.3cc5ffb9.chunk.css",
-    "main.js": "/ruihuasui/static/js/main.6b91fb6b.chunk.js",
-    "main.js.map": "/ruihuasui/static/js/main.6b91fb6b.chunk.js.map",
+    "main.css": "/ruihuasui/static/css/main.40f400db.chunk.css",
+    "main.js": "/ruihuasui/static/js/main.a6bb6dfe.chunk.js",
+    "main.js.map": "/ruihuasui/static/js/main.a6bb6dfe.chunk.js.map",
     "runtime-main.js": "/ruihuasui/static/js/runtime-main.5c848d7b.js",
     "runtime-main.js.map": "/ruihuasui/static/js/runtime-main.5c848d7b.js.map",
     "static/css/2.29829479.chunk.css": "/ruihuasui/static/css/2.29829479.chunk.css",
-    "static/js/2.b4de4130.chunk.js": "/ruihuasui/static/js/2.b4de4130.chunk.js",
-    "static/js/2.b4de4130.chunk.js.map": "/ruihuasui/static/js/2.b4de4130.chunk.js.map",
+    "static/js/2.1b7a7bf5.chunk.js": "/ruihuasui/static/js/2.1b7a7bf5.chunk.js",
+    "static/js/2.1b7a7bf5.chunk.js.map": "/ruihuasui/static/js/2.1b7a7bf5.chunk.js.map",
     "index.html": "/ruihuasui/index.html",
-    "precache-manifest.c33b66c127eda454f7189e19ae4ef747.js": "/ruihuasui/precache-manifest.c33b66c127eda454f7189e19ae4ef747.js",
+    "precache-manifest.244acf23d3985da4f4148bc1448d9176.js": "/ruihuasui/precache-manifest.244acf23d3985da4f4148bc1448d9176.js",
     "service-worker.js": "/ruihuasui/service-worker.js",
     "static/css/2.29829479.chunk.css.map": "/ruihuasui/static/css/2.29829479.chunk.css.map",
-    "static/css/main.3cc5ffb9.chunk.css.map": "/ruihuasui/static/css/main.3cc5ffb9.chunk.css.map",
+    "static/css/main.40f400db.chunk.css.map": "/ruihuasui/static/css/main.40f400db.chunk.css.map",
     "static/media/semantic.min.css": "/ruihuasui/static/media/outline-icons.ef60a4f6.woff",
     "static/media/contact-tracing.jpg": "/ruihuasui/static/media/contact-tracing.918fbf9f.jpg",
     "static/media/ct-demo.png": "/ruihuasui/static/media/ct-demo.c6bdb9f0.png",
     "static/media/ct-logo.png": "/ruihuasui/static/media/ct-logo.1a1e80a1.png",
     "static/media/godutch-demo.png": "/ruihuasui/static/media/godutch-demo.002ea992.png",
+    "static/media/me-cat.MP4": "/ruihuasui/static/media/me-cat.1f318eb6.MP4",
     "static/media/opico-demo.png": "/ruihuasui/static/media/opico-demo.cbbe49a8.png",
     "static/media/opico-logo.png": "/ruihuasui/static/media/opico-logo.939c8dcf.png",
     "static/media/profile.jpg": "/ruihuasui/static/media/profile.94dcf907.jpg",
@@ -27,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.5c848d7b.js",
     "static/css/2.29829479.chunk.css",
-    "static/js/2.b4de4130.chunk.js",
-    "static/css/main.3cc5ffb9.chunk.css",
-    "static/js/main.6b91fb6b.chunk.js"
+    "static/js/2.1b7a7bf5.chunk.js",
+    "static/css/main.40f400db.chunk.css",
+    "static/js/main.a6bb6dfe.chunk.js"
   ]
 }
