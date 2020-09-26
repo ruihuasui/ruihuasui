@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2bb3fadad42ce8884b5a042edcb96de9",
+    "revision": "406dcc479aca279cf4a27ff6768eba6d",
     "url": "/ruihuasui/index.html"
   },
   {
-    "revision": "05b42ae6fc92270f2e83",
-    "url": "/ruihuasui/static/css/2.77ac00bb.chunk.css"
+    "revision": "3e9f1ad21c4a36c5a9b3",
+    "url": "/ruihuasui/static/css/2.29829479.chunk.css"
   },
   {
-    "revision": "41ebfc72ef8b73bd082b",
-    "url": "/ruihuasui/static/css/main.47da2490.chunk.css"
+    "revision": "84b3bd74fcc977e73921",
+    "url": "/ruihuasui/static/css/main.3cc5ffb9.chunk.css"
   },
   {
-    "revision": "05b42ae6fc92270f2e83",
-    "url": "/ruihuasui/static/js/2.91f2ac45.chunk.js"
+    "revision": "3e9f1ad21c4a36c5a9b3",
+    "url": "/ruihuasui/static/js/2.b4de4130.chunk.js"
   },
   {
-    "revision": "41ebfc72ef8b73bd082b",
-    "url": "/ruihuasui/static/js/main.47ddcb00.chunk.js"
+    "revision": "84b3bd74fcc977e73921",
+    "url": "/ruihuasui/static/js/main.6b91fb6b.chunk.js"
   },
   {
-    "revision": "268a7383d244635a450c",
-    "url": "/ruihuasui/static/js/runtime-main.b0ebd10f.js"
+    "revision": "6145587b7e1e59b84326",
+    "url": "/ruihuasui/static/js/runtime-main.5c848d7b.js"
   },
   {
     "revision": "13db00b7a34fee4d819ab7f9838cc428",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e8c322de9658cbeb8a774b6624167c2c",
     "url": "/ruihuasui/static/media/brand-icons.e8c322de.woff2"
+  },
+  {
+    "revision": "918fbf9f5801aff7e6d7119b6e006e18",
+    "url": "/ruihuasui/static/media/contact-tracing.918fbf9f.jpg"
   },
   {
     "revision": "c6bdb9f0bcac05ab5e601c8771c0858a",
@@ -112,8 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ruihuasui/static/media/profile.94dcf907.jpg"
   },
   {
-    "revision": "5df0bfce84b71fa2bb622bbc94a3533e",
-    "url": "/ruihuasui/static/media/srh-resume.5df0bfce.pdf"
+    "revision": "d07eb61748ac8ced542c35093689c5cc",
+    "url": "/ruihuasui/static/media/srh-resume.d07eb617.pdf"
   },
   {
     "revision": "1824a371ee9219a4dcac30a1dd33c110",
